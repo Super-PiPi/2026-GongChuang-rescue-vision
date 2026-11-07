@@ -1,0 +1,73 @@
+保存日志
+清空
+
+MPY: soft reboot
+CanMV v1.8-0-gc2d1f5c(based on Micropython e00a144) on 2026-07-03; k230_canmv_v3p0 with K230
+Type "help()" for more information.
+>>> 
+>>> 
+===== K230 FINAL YOLO+CV2 material test v1.1 =====
+NO UART / NO MOTOR / NO GRIPPER CONTROL
+objects: YOLO red/blue balls + CV2 black cube/yellow pyramid
+channels: CH0=display CH1=CV-RGB888/HWC CH2=YOLO-RGBP888/CHW
+safe filtering: YOLO normal balls -> YOLO safe zones -> CV2 supplement
+ground valid region: DISABLED
+TEAM_COLOR=BLUE
+cv2 required APIs: PASS
+cv2 optional shape APIs: ['arcLength', 'approxPolyDP', 'isContourConvex']
+find sensor gc2093_csi1, type 20, output 1920x1080@60
+deprecated function
+sensor(0), mode 0, buffer_num 4, buffer_size 0
+CV RGB888 HWC shape: (240, 320, 3)
+frame=30 fps=15.87 yolo=40ms convert=0ms cv=16ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=5 drop_ball=0 drop_safe=1 primary=NONE mem=3111360
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2, 'DANGER:AREA_LOW': 1}
+frame=60 fps=15.75 yolo=40ms convert=0ms cv=14ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=5 cv_raw_y=0 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3157120
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=90 fps=15.71 yolo=40ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=5 cv_raw_y=2 cv_ok=0 rejected=6 drop_ball=0 drop_safe=1 primary=NONE mem=3147392
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2, 'DANGER:AREA_LOW': 2}
+frame=120 fps=15.75 yolo=40ms convert=0ms cv=16ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3164928
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 1, 'DANGER:AREA_LOW': 1}
+frame=150 fps=15.20 yolo=41ms convert=0ms cv=15ms fuse=0ms red=0 blue=1 safe=1 aux=2 cv_raw_k=7 cv_raw_y=2 cv_ok=0 rejected=8 drop_ball=0 drop_safe=1 primary=YOLO_NORMAL mem=3111520
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 3, 'DANGER:AREA_LOW': 2}
+frame=180 fps=15.31 yolo=39ms convert=0ms cv=18ms fuse=0ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3026592
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=210 fps=15.42 yolo=40ms convert=0ms cv=14ms fuse=1ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3069600
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=240 fps=15.47 yolo=40ms convert=0ms cv=16ms fuse=1ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=2 cv_ok=0 rejected=5 drop_ball=0 drop_safe=2 primary=NONE mem=3071392
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2, 'DANGER:AREA_LOW': 1}
+frame=270 fps=15.57 yolo=37ms convert=0ms cv=18ms fuse=0ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3057408
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=300 fps=15.63 yolo=40ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3066208
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=330 fps=15.67 yolo=40ms convert=0ms cv=16ms fuse=0ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3069728
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=360 fps=15.67 yolo=38ms convert=1ms cv=14ms fuse=0ms red=0 blue=0 safe=1 aux=2 cv_raw_k=5 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=2 primary=NONE mem=3076704
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=390 fps=15.68 yolo=40ms convert=0ms cv=17ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=7 cv_raw_y=1 cv_ok=0 rejected=6 drop_ball=0 drop_safe=2 primary=NONE mem=3042368
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 3}
+frame=420 fps=15.73 yolo=40ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=3 cv_raw_y=2 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3147808
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 1, 'DANGER:AREA_LOW': 1}
+frame=450 fps=15.71 yolo=38ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3248960
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=480 fps=15.72 yolo=40ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3254272
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=510 fps=15.73 yolo=40ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3250816
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=540 fps=15.75 yolo=40ms convert=0ms cv=16ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3254240
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=570 fps=15.75 yolo=41ms convert=0ms cv=15ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=1 cv_ok=0 rejected=4 drop_ball=0 drop_safe=1 primary=NONE mem=3245568
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2}
+frame=600 fps=15.77 yolo=37ms convert=0ms cv=16ms fuse=0ms red=0 blue=0 safe=1 aux=1 cv_raw_k=4 cv_raw_y=2 cv_ok=0 rejected=5 drop_ball=0 drop_safe=1 primary=NONE mem=3241984
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 2, 'DANGER:AREA_LOW': 1}
+user stopped by IDE
+deprecated function
+final material test finished
+MPY: soft reboot
+CanMV v1.8-0-gc2d1f5c(based on Micropython e00a144) on 2026-07-03; k230_canmv_v3p0 with K230
+Type "help()" for more information.
+>>> 
+MPY: soft reboot
+CanMV v1.8-0-gc2d1f5c(based on Micropython e00a144) on 2026-07-03; k230_canmv_v3p0 with K230
+Type "help()" for more information.
+>>> [CanMV] 已断开连接
+连接开发板以使用 REPL 输入

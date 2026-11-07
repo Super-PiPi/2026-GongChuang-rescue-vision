@@ -1,0 +1,37 @@
+保存日志
+清空
+OK
+MPY: soft reboot
+raw REPL; CTRL-B to exit
+>OK
+===== K230 FINAL YOLO+CV2 material test v1.1 =====
+NO UART / NO MOTOR / NO GRIPPER CONTROL
+objects: YOLO red/blue balls + CV2 black cube/yellow pyramid
+channels: CH0=display CH1=CV-RGB888/HWC CH2=YOLO-RGBP888/CHW
+safe filtering: YOLO normal balls -> YOLO safe zones -> CV2 supplement
+ground valid region: DISABLED
+TEAM_COLOR=BLUE
+cv2 required APIs: PASS
+cv2 optional shape APIs: ['arcLength', 'approxPolyDP', 'isContourConvex']
+find sensor gc2093_csi1, type 20, output 1920x1080@60
+deprecated function
+sensor(0), mode 0, buffer_num 4, buffer_size 0
+CV RGB888 HWC shape: (240, 320, 3)
+frame=30 fps=16.13 yolo=39ms convert=0ms cv=14ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=4 cv_raw_y=0 cv_ok=0 rejected=4 drop_ball=0 drop_safe=0 primary=NONE mem=3261440
+reject_counts: {'CORE:AREA_LOW': 3, 'CORE:BORDER': 1}
+frame=60 fps=15.75 yolo=40ms convert=0ms cv=14ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=3 cv_raw_y=0 cv_ok=0 rejected=3 drop_ball=0 drop_safe=0 primary=NONE mem=3295456
+reject_counts: {'CORE:AREA_LOW': 2, 'CORE:BORDER': 1}
+frame=90 fps=15.87 yolo=39ms convert=0ms cv=15ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=3 cv_raw_y=0 cv_ok=0 rejected=3 drop_ball=0 drop_safe=0 primary=NONE mem=3340000
+reject_counts: {'CORE:AREA_LOW': 2, 'CORE:BORDER': 1}
+frame=120 fps=15.94 yolo=39ms convert=0ms cv=15ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=5 cv_raw_y=0 cv_ok=0 rejected=5 drop_ball=0 drop_safe=0 primary=NONE mem=3334112
+reject_counts: {'CORE:AREA_LOW': 4, 'CORE:BORDER': 1}
+frame=150 fps=15.92 yolo=41ms convert=0ms cv=13ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=4 cv_raw_y=0 cv_ok=0 rejected=4 drop_ball=0 drop_safe=0 primary=NONE mem=3307680
+reject_counts: {'CORE:AREA_LOW': 3, 'CORE:BORDER': 1}
+frame=180 fps=15.96 yolo=39ms convert=0ms cv=14ms fuse=0ms red=1 blue=0 safe=1 aux=0 cv_raw_k=4 cv_raw_y=0 cv_ok=0 rejected=4 drop_ball=0 drop_safe=0 primary=NONE mem=3304576
+reject_counts: {'CORE:BORDER': 1, 'CORE:AREA_LOW': 3}
+user stopped by IDE
+deprecated function
+final material test finished
+MPY: soft reboot
+raw REPL; CTRL-B to exit
+>

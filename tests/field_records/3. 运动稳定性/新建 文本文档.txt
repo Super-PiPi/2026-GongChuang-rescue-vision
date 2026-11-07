@@ -1,0 +1,84 @@
+保存日志
+清空
+OK
+MPY: soft reboot
+raw REPL; CTRL-B to exit
+>OK
+===== K230 FINAL YOLO+CV2 material test v1.1 =====
+NO UART / NO MOTOR / NO GRIPPER CONTROL
+objects: YOLO red/blue balls + CV2 black cube/yellow pyramid
+channels: CH0=display CH1=CV-RGB888/HWC CH2=YOLO-RGBP888/CHW
+safe filtering: YOLO normal balls -> YOLO safe zones -> CV2 supplement
+ground valid region: DISABLED
+TEAM_COLOR=BLUE
+cv2 required APIs: PASS
+cv2 optional shape APIs: ['arcLength', 'approxPolyDP', 'isContourConvex']
+find sensor gc2093_csi1, type 20, output 1920x1080@60
+deprecated function
+sensor(0), mode 0, buffer_num 4, buffer_size 0
+CV RGB888 HWC shape: (240, 320, 3)
+frame=30 fps=15.38 yolo=40ms convert=0ms cv=18ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=8 cv_raw_y=2 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2719168
+reject_counts: {'CORE:BORDER': 4, 'CORE:AREA_LOW': 3, 'DANGER:AREA_LOW': 1}
+  CV_OK type=CORE center=(740, 194) aim=(740, 216) wh=(100, 80) area320=1082 aspect=1.00 fill=0.68 contrast=60.6 v_in=53.9 v_out=114.5 vertices=6 yolo_support=True
+  CV_OK type=DANGER center=(559, 114) aim=(559, 131) wh=(45, 56) area320=256 aspect=0.64 fill=0.51 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=60 fps=15.27 yolo=40ms convert=0ms cv=18ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=12 cv_raw_y=2 cv_ok=2 rejected=12 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2738784
+reject_counts: {'CORE:AREA_LOW': 8, 'CORE:BORDER': 2, 'CORE:ASPECT': 1, 'DANGER:AREA_LOW': 1}
+  CV_OK type=CORE center=(662, 172) aim=(662, 192) wh=(80, 72) area320=819 aspect=0.89 fill=0.71 contrast=70.3 v_in=47.2 v_out=117.5 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(506, 105) aim=(506, 121) wh=(42, 50) area320=215 aspect=0.68 fill=0.50 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=90 fps=15.31 yolo=40ms convert=0ms cv=17ms fuse=1ms red=1 blue=1 safe=1 aux=2 cv_raw_k=8 cv_raw_y=1 cv_ok=2 rejected=7 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2716768
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 5}
+  CV_OK type=CORE center=(603, 177) aim=(603, 196) wh=(77, 70) area320=807 aspect=0.89 fill=0.74 contrast=73.1 v_in=43.1 v_out=116.1 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(451, 112) aim=(451, 128) wh=(42, 52) area320=231 aspect=0.65 fill=0.52 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=120 fps=15.38 yolo=38ms convert=0ms cv=20ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=9 cv_raw_y=1 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2754528
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 6}
+  CV_OK type=CORE center=(643, 203) aim=(643, 224) wh=(87, 78) area320=1005 aspect=0.90 fill=0.74 contrast=72.3 v_in=44.4 v_out=116.7 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(473, 124) aim=(473, 141) wh=(47, 56) area320=265 aspect=0.68 fill=0.50 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=150 fps=15.34 yolo=38ms convert=0ms cv=16ms fuse=0ms red=1 blue=1 safe=1 aux=1 cv_raw_k=11 cv_raw_y=2 cv_ok=2 rejected=11 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2777600
+reject_counts: {'CORE:AREA_LOW': 6, 'CORE:BORDER': 3, 'CORE:ASPECT': 1, 'DANGER:AREA_LOW': 1}
+  CV_OK type=CORE center=(740, 199) aim=(740, 221) wh=(100, 82) area320=1118 aspect=0.98 fill=0.68 contrast=61.7 v_in=52.7 v_out=114.4 vertices=5 yolo_support=False
+  CV_OK type=DANGER center=(558, 115) aim=(558, 132) wh=(47, 54) area320=256 aspect=0.70 fill=0.50 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=180 fps=15.31 yolo=40ms convert=0ms cv=16ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=9 cv_raw_y=1 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2701120
+reject_counts: {'CORE:AREA_LOW': 5, 'CORE:BORDER': 3}
+  CV_OK type=CORE center=(660, 193) aim=(660, 214) wh=(90, 78) area320=1012 aspect=0.92 fill=0.72 contrast=71.2 v_in=47.4 v_out=118.5 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(493, 116) aim=(493, 133) wh=(47, 56) area320=259 aspect=0.68 fill=0.49 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=210 fps=15.28 yolo=40ms convert=0ms cv=19ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=9 cv_raw_y=3 cv_ok=2 rejected=10 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2749536
+reject_counts: {'CORE:AREA_LOW': 5, 'CORE:BORDER': 2, 'CORE:ASPECT': 1, 'DANGER:AREA_LOW': 2}
+  CV_OK type=CORE center=(660, 193) aim=(660, 214) wh=(90, 78) area320=1009 aspect=0.92 fill=0.72 contrast=71.0 v_in=48.8 v_out=119.7 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(493, 116) aim=(493, 133) wh=(47, 56) area320=251 aspect=0.68 fill=0.47 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=240 fps=15.27 yolo=38ms convert=0ms cv=18ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=9 cv_raw_y=1 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2730560
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 5, 'CORE:ASPECT': 1}
+  CV_OK type=CORE center=(660, 193) aim=(660, 214) wh=(90, 78) area320=1011 aspect=0.92 fill=0.72 contrast=70.9 v_in=48.9 v_out=119.8 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(493, 116) aim=(493, 133) wh=(47, 56) area320=258 aspect=0.68 fill=0.48 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=270 fps=15.25 yolo=41ms convert=0ms cv=19ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=8 cv_raw_y=1 cv_ok=2 rejected=7 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2726336
+reject_counts: {'CORE:BORDER': 2, 'CORE:AREA_LOW': 4, 'CORE:ASPECT': 1}
+  CV_OK type=CORE center=(632, 192) aim=(632, 213) wh=(85, 76) area320=971 aspect=0.89 fill=0.75 contrast=74.5 v_in=44.3 v_out=118.8 vertices=6 yolo_support=True
+  CV_OK type=DANGER center=(462, 118) aim=(462, 135) wh=(45, 56) area320=258 aspect=0.64 fill=0.51 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=300 fps=15.27 yolo=39ms convert=0ms cv=17ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=6 cv_raw_y=1 cv_ok=2 rejected=5 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2789664
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 2}
+  CV_OK type=CORE center=(631, 154) aim=(631, 171) wh=(72, 64) area320=667 aspect=0.91 fill=0.72 contrast=71.8 v_in=44.6 v_out=116.4 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(490, 96) aim=(490, 111) wh=(40, 48) area320=193 aspect=0.67 fill=0.50 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=330 fps=15.01 yolo=41ms convert=0ms cv=16ms fuse=1ms red=1 blue=1 safe=1 aux=2 cv_raw_k=8 cv_raw_y=2 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2746304
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 4, 'DANGER:AREA_LOW': 1}
+  CV_OK type=CORE center=(643, 161) aim=(643, 179) wh=(72, 66) area320=714 aspect=0.88 fill=0.75 contrast=73.5 v_in=41.6 v_out=115.1 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(497, 100) aim=(497, 115) wh=(40, 48) area320=198 aspect=0.67 fill=0.51 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=360 fps=15.06 yolo=41ms convert=0ms cv=14ms fuse=1ms red=1 blue=1 safe=1 aux=2 cv_raw_k=7 cv_raw_y=1 cv_ok=2 rejected=6 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2749504
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 3}
+  CV_OK type=CORE center=(623, 159) aim=(623, 177) wh=(72, 66) area320=687 aspect=0.88 fill=0.72 contrast=70.8 v_in=45.3 v_out=116.2 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(482, 100) aim=(482, 115) wh=(40, 48) area320=198 aspect=0.67 fill=0.51 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=390 fps=15.08 yolo=39ms convert=0ms cv=19ms fuse=1ms red=1 blue=1 safe=1 aux=2 cv_raw_k=7 cv_raw_y=1 cv_ok=1 rejected=6 drop_ball=1 drop_safe=0 primary=YOLO_NORMAL mem=2792544
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 3}
+  CV_OK type=CORE center=(585, 143) aim=(585, 159) wh=(60, 58) area320=548 aspect=0.83 fill=0.79 contrast=77.7 v_in=35.5 v_out=113.2 vertices=5 yolo_support=True
+frame=420 fps=15.10 yolo=40ms convert=0ms cv=16ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=7 cv_raw_y=2 cv_ok=2 rejected=7 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2777728
+reject_counts: {'CORE:BORDER': 3, 'CORE:AREA_LOW': 3, 'DANGER:AREA_LOW': 1}
+  CV_OK type=CORE center=(605, 144) aim=(605, 160) wh=(67, 60) area320=597 aspect=0.90 fill=0.74 contrast=72.9 v_in=42.6 v_out=115.6 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(473, 91) aim=(473, 105) wh=(37, 46) area320=180 aspect=0.65 fill=0.52 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+frame=450 fps=15.20 yolo=38ms convert=0ms cv=16ms fuse=0ms red=1 blue=1 safe=1 aux=2 cv_raw_k=7 cv_raw_y=3 cv_ok=2 rejected=8 drop_ball=0 drop_safe=0 primary=YOLO_NORMAL mem=2855872
+reject_counts: {'CORE:AREA_LOW': 3, 'CORE:BORDER': 3, 'DANGER:AREA_LOW': 2}
+  CV_OK type=CORE center=(605, 144) aim=(605, 160) wh=(67, 60) area320=594 aspect=0.90 fill=0.73 contrast=72.5 v_in=45.1 v_out=117.6 vertices=5 yolo_support=True
+  CV_OK type=DANGER center=(473, 91) aim=(473, 105) wh=(37, 46) area320=184 aspect=0.65 fill=0.53 contrast=0.0 v_in=0.0 v_out=0.0 vertices=4 yolo_support=True
+user stopped by IDE
+deprecated function
+final material test finished
+MPY: soft reboot
+raw REPL; CTRL-B to exit
+>

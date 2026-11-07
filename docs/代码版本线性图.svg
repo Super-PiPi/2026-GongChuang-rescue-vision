@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="3211" viewBox="0 0 1500 3211" role="img" aria-labelledby="title desc">
+<title id="title">2026 工创赛智能救援小车代码版本线性图</title>
+<desc id="desc">原始资料全部31个Python文件按修改时间从早到晚排列；箭头只表示时间顺序，不表示版本继承。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker></defs>
+<rect width="1500" height="3211" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<text x="55" y="65" font-size="33" font-weight="700" fill="#0f172a">2026 工创赛 · 智能救援小车代码时间线</text>
+<text x="55" y="107" font-size="18" fill="#475569">31 个 Python 文件 ｜ 按 LastWriteTime 升序 ｜ UTC+08:00 ｜ 整理于 2026-11-07</text>
+<text x="55" y="141" font-size="17" fill="#475569">箭头仅表示修改时间先后；各系列的功能继承与日期冲突说明见 CODE_VERSION_TIMELINE.md。</text>
+<rect x="55" y="166" width="13" height="13" rx="3" fill="#64748b"/>
+<text x="78" y="179" font-size="17" fill="#334155">采集</text>
+<rect x="280" y="166" width="13" height="13" rx="3" fill="#2563eb"/>
+<text x="303" y="179" font-size="17" fill="#334155">YOLO控制</text>
+<rect x="505" y="166" width="13" height="13" rx="3" fill="#0891b2"/>
+<text x="528" y="179" font-size="17" fill="#334155">基础实验</text>
+<rect x="730" y="166" width="13" height="13" rx="3" fill="#0d9488"/>
+<text x="753" y="179" font-size="17" fill="#334155">LAB实验</text>
+<rect x="955" y="166" width="13" height="13" rx="3" fill="#9333ea"/>
+<text x="978" y="179" font-size="17" fill="#334155">HSV融合测试</text>
+<rect x="1180" y="166" width="13" height="13" rx="3" fill="#ea580c"/>
+<text x="1203" y="179" font-size="17" fill="#334155">决赛控制</text>
+<rect x="55" y="204" width="1390" height="47" rx="8" fill="#fff7ed"/>
+<text x="71" y="234" font-size="16" fill="#9a3412">注意：V2.3 修改时间早于 V2.2；V8.9 最晚但属于 YOLO 球类系列。最高版本号不等于已确认的参赛入口。</text>
+<line x1="271" y1="307" x2="271" y2="361" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="287" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="313" font-size="19" fill="#64748b">01:04:29</text>
+<circle cx="271" cy="290" r="17" fill="#64748b"/>
+<text x="271" y="296" text-anchor="middle" font-size="14" font-weight="700" fill="white">01</text>
+<rect x="310" y="261" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="261" width="5" height="74" rx="2" fill="#64748b"/>
+<text x="330" y="287" font-size="19" font-weight="600" fill="#0f172a">get_video_yolo_dual_save_live_box.py</text>
+<text x="330" y="314" font-size="16" fill="#475569">原图/画框图同名成对保存；RGBP888 BIN；2 组/秒。</text>
+<line x1="271" y1="398" x2="271" y2="452" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="378" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="404" font-size="19" fill="#64748b">01:04:40</text>
+<circle cx="271" cy="381" r="17" fill="#2563eb"/>
+<text x="271" y="387" text-anchor="middle" font-size="14" font-weight="700" fill="white">02</text>
+<rect x="310" y="352" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="352" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="378" font-size="19" font-weight="600" fill="#0f172a">vision_v7.7_signdebug.py</text>
+<text x="330" y="405" font-size="16" fill="#475569">已有完整搜索/跟踪/抓取/运输/卸载流程、安全区过滤、卸载冷却和 sign 调试显示。</text>
+<line x1="271" y1="489" x2="271" y2="543" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="469" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="495" font-size="19" fill="#64748b">01:17:02</text>
+<circle cx="271" cy="472" r="17" fill="#64748b"/>
+<text x="271" y="478" text-anchor="middle" font-size="14" font-weight="700" fill="white">03</text>
+<rect x="310" y="443" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="443" width="5" height="74" rx="2" fill="#64748b"/>
+<text x="330" y="469" font-size="19" font-weight="600" fill="#0f172a">get_video_yolo.py</text>
+<text x="330" y="496" font-size="16" fill="#475569">直接保存原始 BIN，实时显示 YOLO 框；1 张/秒；不据日期认定为双保存版的后继。</text>
+<line x1="271" y1="580" x2="271" y2="634" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="560" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="586" font-size="19" fill="#64748b">08:38:01</text>
+<circle cx="271" cy="563" r="17" fill="#2563eb"/>
+<text x="271" y="569" text-anchor="middle" font-size="14" font-weight="700" fill="white">04</text>
+<rect x="310" y="534" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="534" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="560" font-size="19" font-weight="600" fill="#0f172a">vision_v7.9_xywh_fixed.py</text>
+<text x="330" y="587" font-size="16" fill="#475569">修正官方结果 xywh→xyxy；置信度 0.3→0.5；夹爪 ROI 与卸载时序调整。</text>
+<line x1="271" y1="671" x2="271" y2="725" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="651" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="677" font-size="19" fill="#64748b">15:11:30</text>
+<circle cx="271" cy="654" r="17" fill="#2563eb"/>
+<text x="271" y="660" text-anchor="middle" font-size="14" font-weight="700" fill="white">05</text>
+<rect x="310" y="625" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="625" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="651" font-size="19" font-weight="600" fill="#0f172a">vision_v8.0_VERIFY_GRAB.py</text>
+<text x="330" y="678" font-size="16" fill="#475569">新增 VERIFY_GRAB 与复核 ROI：闭爪后确认抓取，超时回搜索。</text>
+<line x1="271" y1="762" x2="271" y2="816" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="742" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="768" font-size="19" fill="#64748b">15:51:10</text>
+<circle cx="271" cy="745" r="17" fill="#2563eb"/>
+<text x="271" y="751" text-anchor="middle" font-size="14" font-weight="700" fill="white">06</text>
+<rect x="310" y="716" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="716" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="742" font-size="19" font-weight="600" fill="#0f172a">vision_V8.1._oneball.py</text>
+<text x="330" y="769" font-size="16" fill="#475569">闭爪靠近；确认夹爪 ROI 中恰好一个匹配目标。</text>
+<line x1="271" y1="853" x2="271" y2="907" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="833" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="859" font-size="19" fill="#64748b">16:27:34</text>
+<circle cx="271" cy="836" r="17" fill="#2563eb"/>
+<text x="271" y="842" text-anchor="middle" font-size="14" font-weight="700" fill="white">07</text>
+<rect x="310" y="807" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="807" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="833" font-size="19" font-weight="600" fill="#0f172a">vision_V8.3_oneball.py</text>
+<text x="330" y="860" font-size="16" fill="#475569">TRACK 阶段提前开爪，保留单球抓取复核。</text>
+<line x1="271" y1="944" x2="271" y2="998" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="924" font-size="18" fill="#334155">2026-07-20</text>
+<text x="55" y="950" font-size="19" fill="#64748b">21:20:01</text>
+<circle cx="271" cy="927" r="17" fill="#2563eb"/>
+<text x="271" y="933" text-anchor="middle" font-size="14" font-weight="700" fill="white">08</text>
+<rect x="310" y="898" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="898" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="924" font-size="19" font-weight="600" fill="#0f172a">vision_V8.4.py</text>
+<text x="330" y="951" font-size="16" fill="#475569">删除未启用的自矫正子阶段；运输坐标到位后直接卸载。</text>
+<line x1="271" y1="1035" x2="271" y2="1089" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1015" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1041" font-size="19" fill="#64748b">13:06:47</text>
+<circle cx="271" cy="1018" r="17" fill="#2563eb"/>
+<text x="271" y="1024" text-anchor="middle" font-size="14" font-weight="700" fill="white">09</text>
+<rect x="310" y="989" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="989" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="1015" font-size="19" font-weight="600" fill="#0f172a">vision_V8.5.py</text>
+<text x="330" y="1042" font-size="16" fill="#475569">加入安全区近距离 3 秒运输兜底；当前本方颜色 RED。</text>
+<line x1="271" y1="1126" x2="271" y2="1180" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1106" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1132" font-size="19" fill="#64748b">15:14:24</text>
+<circle cx="271" cy="1109" r="17" fill="#0891b2"/>
+<text x="271" y="1115" text-anchor="middle" font-size="14" font-weight="700" fill="white">10</text>
+<rect x="310" y="1080" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1080" width="5" height="74" rx="2" fill="#0891b2"/>
+<text x="330" y="1106" font-size="19" font-weight="600" fill="#0f172a">k230_cv2_compat_test.py</text>
+<text x="330" y="1133" font-size="16" fill="#475569">验证 cv2 接口、CHW→HWC 和 320×240 耗时；无 YOLO/UART。</text>
+<line x1="271" y1="1217" x2="271" y2="1271" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1197" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1223" font-size="19" fill="#64748b">15:14:42</text>
+<circle cx="271" cy="1200" r="17" fill="#0891b2"/>
+<text x="271" y="1206" text-anchor="middle" font-size="14" font-weight="700" fill="white">11</text>
+<rect x="310" y="1171" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1171" width="5" height="74" rx="2" fill="#0891b2"/>
+<text x="330" y="1197" font-size="19" font-weight="600" fill="#0f172a">k230_cv2_hsv_calibration.py</text>
+<text x="330" y="1224" font-size="16" fill="#475569">中央 ROI 自动采样；原始范围、5%～95%抗离群范围和 HSV 配置输出。</text>
+<line x1="271" y1="1308" x2="271" y2="1362" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1288" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1314" font-size="19" fill="#64748b">15:32:51</text>
+<circle cx="271" cy="1291" r="17" fill="#0891b2"/>
+<text x="271" y="1297" text-anchor="middle" font-size="14" font-weight="700" fill="white">12</text>
+<rect x="310" y="1262" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1262" width="5" height="74" rx="2" fill="#0891b2"/>
+<text x="330" y="1288" font-size="19" font-weight="600" fill="#0f172a">k230_cv2_hsv_quick_calibration.py</text>
+<text x="330" y="1315" font-size="16" fill="#475569">交互调整 ROI、多颜色采样；输出到 /sdcard/hsv_calibration.txt。</text>
+<line x1="271" y1="1399" x2="271" y2="1453" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1379" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1405" font-size="19" fill="#64748b">15:39:10</text>
+<circle cx="271" cy="1382" r="17" fill="#0891b2"/>
+<text x="271" y="1388" text-anchor="middle" font-size="14" font-weight="700" fill="white">13</text>
+<rect x="310" y="1353" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1353" width="5" height="74" rx="2" fill="#0891b2"/>
+<text x="330" y="1379" font-size="19" font-weight="600" fill="#0f172a">k230_cv2_hsv_guided_calibration.py</text>
+<text x="330" y="1406" font-size="16" fill="#475569">无需键盘，屏幕引导近/中/边缘采样并保存阈值。</text>
+<line x1="271" y1="1490" x2="271" y2="1544" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1470" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1496" font-size="19" fill="#64748b">15:42:59</text>
+<circle cx="271" cy="1473" r="17" fill="#0891b2"/>
+<text x="271" y="1479" text-anchor="middle" font-size="14" font-weight="700" fill="white">14</text>
+<rect x="310" y="1444" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1444" width="5" height="74" rx="2" fill="#0891b2"/>
+<text x="330" y="1470" font-size="19" font-weight="600" fill="#0f172a">k230_cv2_color_blob_test.py</text>
+<text x="330" y="1497" font-size="16" fill="#475569">320×240 上红/蓝/黄/黑 HSV 色块检测，映射到 800×480 显示。</text>
+<line x1="271" y1="1581" x2="271" y2="1635" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1561" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1587" font-size="19" fill="#64748b">15:54:02</text>
+<circle cx="271" cy="1564" r="17" fill="#0d9488"/>
+<text x="271" y="1570" text-anchor="middle" font-size="14" font-weight="700" fill="white">15</text>
+<rect x="310" y="1535" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1535" width="5" height="74" rx="2" fill="#0d9488"/>
+<text x="330" y="1561" font-size="19" font-weight="600" fill="#0f172a">k230_lab_find_blobs_blue_test.py</text>
+<text x="330" y="1588" font-size="16" fill="#475569">RGB565 + LAB find_blobs 蓝色独立验证。</text>
+<line x1="271" y1="1672" x2="271" y2="1726" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1652" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1678" font-size="19" fill="#64748b">16:46:23</text>
+<circle cx="271" cy="1655" r="17" fill="#0d9488"/>
+<text x="271" y="1661" text-anchor="middle" font-size="14" font-weight="700" fill="white">16</text>
+<rect x="310" y="1626" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1626" width="5" height="74" rx="2" fill="#0d9488"/>
+<text x="330" y="1652" font-size="19" font-weight="600" fill="#0f172a">k230_lab_find_blobs_multicolor_test.py</text>
+<text x="330" y="1679" font-size="16" fill="#475569">扩展红/蓝/黄 LAB；黑色默认关闭，避免阴影混淆。</text>
+<line x1="271" y1="1763" x2="271" y2="1817" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1743" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1769" font-size="19" fill="#64748b">17:04:46</text>
+<circle cx="271" cy="1746" r="17" fill="#0d9488"/>
+<text x="271" y="1752" text-anchor="middle" font-size="14" font-weight="700" fill="white">17</text>
+<rect x="310" y="1717" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1717" width="5" height="74" rx="2" fill="#0d9488"/>
+<text x="330" y="1743" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_lab_dual_path_test.py</text>
+<text x="330" y="1770" font-size="16" fill="#475569">YOLO 球优先；LAB 排除球与安全区重叠后补充；无状态机/UART。</text>
+<line x1="271" y1="1854" x2="271" y2="1908" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1834" font-size="18" fill="#334155">2026-07-21</text>
+<text x="55" y="1860" font-size="19" fill="#64748b">23:09:57</text>
+<circle cx="271" cy="1837" r="17" fill="#ea580c"/>
+<text x="271" y="1843" text-anchor="middle" font-size="14" font-weight="700" fill="white">18</text>
+<rect x="310" y="1808" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1808" width="5" height="74" rx="2" fill="#ea580c"/>
+<text x="330" y="1834" font-size="19" font-weight="600" fill="#0f172a">vision_final_V1.0.py</text>
+<text x="330" y="1861" font-size="16" fill="#475569">YOLO+LAB 三通道接入完整控制流程；双重空间去重、分来源抓取复核。</text>
+<line x1="271" y1="1945" x2="271" y2="1999" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="1925" font-size="18" fill="#334155">2026-07-22</text>
+<text x="55" y="1951" font-size="19" fill="#64748b">00:49:26</text>
+<circle cx="271" cy="1928" r="17" fill="#2563eb"/>
+<text x="271" y="1934" text-anchor="middle" font-size="14" font-weight="700" fill="white">19</text>
+<rect x="310" y="1899" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1899" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="1925" font-size="19" font-weight="600" fill="#0f172a">vision_V8.6.py</text>
+<text x="330" y="1952" font-size="16" fill="#475569">新增 StuckDetector、静止检测和 ESCAPE 停车/后退/旋转流程。</text>
+<line x1="271" y1="2036" x2="271" y2="2090" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2016" font-size="18" fill="#334155">2026-07-22</text>
+<text x="55" y="2042" font-size="19" fill="#64748b">01:57:58</text>
+<circle cx="271" cy="2019" r="17" fill="#2563eb"/>
+<text x="271" y="2025" text-anchor="middle" font-size="14" font-weight="700" fill="white">20</text>
+<rect x="310" y="1990" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="1990" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="2016" font-size="19" font-weight="600" fill="#0f172a">vision_V8.7.py</text>
+<text x="330" y="2043" font-size="16" fill="#475569">独立 RGB565 通道供运动检测，修正堵停检测图像类型问题。</text>
+<line x1="271" y1="2127" x2="271" y2="2181" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2107" font-size="18" fill="#334155">2026-07-22</text>
+<text x="55" y="2133" font-size="19" fill="#64748b">02:04:25</text>
+<circle cx="271" cy="2110" r="17" fill="#2563eb"/>
+<text x="271" y="2116" text-anchor="middle" font-size="14" font-weight="700" fill="white">21</text>
+<rect x="310" y="2081" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2081" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="2107" font-size="19" font-weight="600" fill="#0f172a">vision_V8.8.py</text>
+<text x="330" y="2134" font-size="16" fill="#475569">首球抓取复核成功后才启用堵停监测，减少发车前静止误触发。</text>
+<line x1="271" y1="2218" x2="271" y2="2272" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2198" font-size="18" fill="#334155">2026-07-22</text>
+<text x="55" y="2224" font-size="19" fill="#64748b">17:04:53</text>
+<circle cx="271" cy="2201" r="17" fill="#9333ea"/>
+<text x="271" y="2207" text-anchor="middle" font-size="14" font-weight="700" fill="white">22</text>
+<rect x="310" y="2172" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2172" width="5" height="74" rx="2" fill="#9333ea"/>
+<text x="330" y="2198" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_cv2_final_material_test.py</text>
+<text x="330" y="2225" font-size="16" fill="#475569">内置版本 v1.0：YOLO 红/蓝球与安全区 + HSV 黑方块/黄锥；无 UART。</text>
+<line x1="271" y1="2309" x2="271" y2="2363" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2289" font-size="18" fill="#334155">2026-07-22</text>
+<text x="55" y="2315" font-size="19" fill="#64748b">17:33:48</text>
+<circle cx="271" cy="2292" r="17" fill="#9333ea"/>
+<text x="271" y="2298" text-anchor="middle" font-size="14" font-weight="700" fill="white">23</text>
+<rect x="310" y="2263" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2263" width="5" height="74" rx="2" fill="#9333ea"/>
+<text x="330" y="2289" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_cv2_final_material_test_v1.1.py</text>
+<text x="330" y="2316" font-size="16" fill="#475569">CH1 直接输出 320×240 RGB888/HWC，移除大图 CHW→HWC 转换。</text>
+<line x1="271" y1="2400" x2="271" y2="2454" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2380" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2406" font-size="19" fill="#64748b">02:46:51</text>
+<circle cx="271" cy="2383" r="17" fill="#9333ea"/>
+<text x="271" y="2389" text-anchor="middle" font-size="14" font-weight="700" fill="white">24</text>
+<rect x="310" y="2354" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2354" width="5" height="74" rx="2" fill="#9333ea"/>
+<text x="330" y="2380" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_cv2_final_material_test_v1.2.py</text>
+<text x="330" y="2407" font-size="16" fill="#475569">新增自动锁定、近夹爪原始 HSV 证据和短时遮挡锁存。</text>
+<line x1="271" y1="2491" x2="271" y2="2545" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2471" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2497" font-size="19" fill="#64748b">02:59:06</text>
+<circle cx="271" cy="2474" r="17" fill="#9333ea"/>
+<text x="271" y="2480" text-anchor="middle" font-size="14" font-weight="700" fill="white">25</text>
+<rect x="310" y="2445" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2445" width="5" height="74" rx="2" fill="#9333ea"/>
+<text x="330" y="2471" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_cv2_final_material_test_v1.3.py</text>
+<text x="330" y="2498" font-size="16" fill="#475569">提高近场门限，加入空夹爪基线、连续确认和防回跳匹配。</text>
+<line x1="271" y1="2582" x2="271" y2="2636" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2562" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2588" font-size="19" fill="#64748b">03:32:17</text>
+<circle cx="271" cy="2565" r="17" fill="#9333ea"/>
+<text x="271" y="2571" text-anchor="middle" font-size="14" font-weight="700" fill="white">26</text>
+<rect x="310" y="2536" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2536" width="5" height="74" rx="2" fill="#9333ea"/>
+<text x="330" y="2562" font-size="19" font-weight="600" fill="#0f172a">k230_yolo_cv2_final_material_test_v1.4.py</text>
+<text x="330" y="2589" font-size="16" fill="#475569">按状态调度 YOLO/CV，收紧严格黑方块局部对比度；两种 CV 物料均启用。</text>
+<line x1="271" y1="2673" x2="271" y2="2727" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2653" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2679" font-size="19" fill="#64748b">05:28:24</text>
+<circle cx="271" cy="2656" r="17" fill="#ea580c"/>
+<text x="271" y="2662" text-anchor="middle" font-size="14" font-weight="700" fill="white">27</text>
+<rect x="310" y="2627" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2627" width="5" height="74" rx="2" fill="#ea580c"/>
+<text x="330" y="2653" font-size="19" font-weight="600" fill="#0f172a">vision_final_V2.0.py</text>
+<text x="330" y="2680" font-size="16" fill="#475569">HSV 决赛整合：v1.4 调度、CV 近场接管、CORE 闭爪后二次视觉确认。</text>
+<line x1="271" y1="2764" x2="271" y2="2818" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2744" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2770" font-size="19" fill="#64748b">06:05:56</text>
+<circle cx="271" cy="2747" r="17" fill="#ea580c"/>
+<text x="271" y="2753" text-anchor="middle" font-size="14" font-weight="700" fill="white">28</text>
+<rect x="310" y="2718" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2718" width="5" height="74" rx="2" fill="#ea580c"/>
+<text x="330" y="2744" font-size="19" font-weight="600" fill="#0f172a">vision_final_V2.1.py</text>
+<text x="330" y="2771" font-size="16" fill="#475569">统一 YOLO/CV 主框跟踪抓取；原始 HSV 只作闭爪后 ROI 备用确认。</text>
+<line x1="271" y1="2855" x2="271" y2="2909" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2835" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2861" font-size="19" fill="#64748b">08:55:12</text>
+<circle cx="271" cy="2838" r="17" fill="#ea580c"/>
+<text x="271" y="2844" text-anchor="middle" font-size="14" font-weight="700" fill="white">29</text>
+<rect x="310" y="2809" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2809" width="5" height="74" rx="2" fill="#ea580c"/>
+<text x="330" y="2835" font-size="19" font-weight="600" fill="#0f172a">vision_final_V2.3.py</text>
+<text x="330" y="2862" font-size="16" fill="#475569">新增独立 CV_GRAB_ROI，框底中心入矩形连续 3 帧闭爪并直运；仅启用 DANGER。</text>
+<line x1="271" y1="2946" x2="271" y2="3000" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="55" y="2926" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="2952" font-size="19" fill="#64748b">09:06:41</text>
+<circle cx="271" cy="2929" r="17" fill="#ea580c"/>
+<text x="271" y="2935" text-anchor="middle" font-size="14" font-weight="700" fill="white">30</text>
+<rect x="310" y="2900" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2900" width="5" height="74" rx="2" fill="#ea580c"/>
+<text x="330" y="2926" font-size="19" font-weight="600" fill="#0f172a">vision_final_V2.2.py</text>
+<text x="330" y="2953" font-size="16" fill="#475569">CV 框底达 GRIP_ROI 高度并横向对准后提前闭爪，跳过复核；仅启用 DANGER。</text>
+<text x="55" y="3017" font-size="18" fill="#334155">2026-07-23</text>
+<text x="55" y="3043" font-size="19" fill="#64748b">10:33:29</text>
+<circle cx="271" cy="3020" r="17" fill="#2563eb"/>
+<text x="271" y="3026" text-anchor="middle" font-size="14" font-weight="700" fill="white">31</text>
+<rect x="310" y="2991" width="1135" height="74" rx="9" fill="white" stroke="#e2e8f0"/>
+<rect x="310" y="2991" width="5" height="74" rx="2" fill="#2563eb"/>
+<text x="330" y="3017" font-size="19" font-weight="600" fill="#0f172a">vision_V8.9.py</text>
+<text x="330" y="3044" font-size="16" fill="#475569">黑色 CORE 球闭爪后跳过视觉复核，直接运输；当前本方颜色 RED。</text>
+<text x="55" y="3173" font-size="17" fill="#64748b">来源：现存代码内容 + 文件修改时间。未获得原始开发 Git 历史；未验证实际比赛运行版本。</text>
+</g></svg>

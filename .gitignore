@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / assistant local state
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Temporary files and generated local output
+tmp/
+output/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Captured raw tensors and model weights are not part of this source archive
+*.bin
+*.kmodel
